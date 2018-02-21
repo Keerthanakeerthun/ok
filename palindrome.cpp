@@ -18,7 +18,7 @@ cout<<"Palindrome";
 }
 else
 {
-cout<<"Not Palindrome";
+cout<<"No";
 }
 return 0;
 }
