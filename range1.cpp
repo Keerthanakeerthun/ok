@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	int i,s,e=100000,rem;
+	int i,s,n,rem;
 cout<<"Enter the range as positive numbers"<<endl;
 cin>>s>>e;
-	for(i=s; i<e; ++i){
+	for(i=s; i<n; ++i){
 
                rem = i % 2;
 
