@@ -9,7 +9,7 @@ cin>>s>>e;
 
                rem = i % 2;
 
-               if(rem == 0)
+               if(rem != 0)
 {
            cout<<i;
 }
