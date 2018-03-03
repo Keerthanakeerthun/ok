@@ -8,7 +8,7 @@ int main() {
 	cout<<"Enter ending number : ";
 	cin>>end;
 	cout<<"Prime Number Between "<<start<<" and "<<end<<" is :\n";
-	for(i=start; i<=end; i++)
+	for(i=start+1; i<end; i++)
 	{
 		count=0;
 		for(j=2; j<i; j++)
