@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
         string s;
-        int len,i,count=0;
+        int len,i,count=1;
  
         cout<<"enter a string: "<<endl;
         getline(cin,s);
@@ -14,13 +14,13 @@ int main()
  
         for(i=0;i<len;i++)
        {
-                if(s[i]==' ')
+                if(s[i]=='.')
                 {
                         count++;
                 }
        }
  
-        cout<<"Total number of spaces in the given string is "<<count<<endl;
+        cout<<"Total number of lines in the given string is "<<count<<endl;
  
         return 0;
 }
