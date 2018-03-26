@@ -7,7 +7,7 @@ int main()
 int num, rev=0, rem;
 	cout<<"Enter a number : ";
 	cin>>num;
-	while(num!=0)
+	while(num!=0&&num<1000)
 	{
 		rem=num%10;
 		rev=rev*10+rem;
