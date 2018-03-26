@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -10,9 +11,9 @@ cin>>N;
  for(i=1;i<=N;i++)
 {
          cin>>arr[i];
-if(arr[i]!=i)
+if(i!=arr[i])
 {
-cout<<arr[i]<<endl;
+cout<<i<<endl;
 break;
 }
 }
