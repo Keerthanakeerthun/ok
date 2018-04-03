@@ -14,10 +14,10 @@ int main()
       ss >> num;
 
       if(ss.good()) {
-          cerr << "No Valid Number" << endl;
+          cerr << "yes" << endl;
       }
       else if(num == 0 && s[0] != '0') {
-          cerr << "No Valid Number" << endl;
+          cerr << "No" << endl;
       }
       else {
           cout << num<< endl;
