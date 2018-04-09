@@ -26,6 +26,7 @@ int main()
       else
       {
           c=0;
+        break;
       }
    }
    if(c=1)
