@@ -1,8 +1,17 @@
-#include <iostream>
+ #include <iostream>
+#include<string>
+using namespace std;
 int main()
 {
-    
-    if (std::cout <<"hai guvian" ) 
-    {
-    }
+string str;
+if(cout<<"Enter The String:")
+{
+}
+if(getline(cin,str))
+{
+}
+if (cout <<str) 
+{
+}
+return 0;
 }
