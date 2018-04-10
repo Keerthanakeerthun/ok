@@ -14,6 +14,10 @@ int main()
             cout<<res;
             break;
                     }
+        else
+        {
+            cout<<"Enter valid input";
+        }
     }
     return 0;
 }
