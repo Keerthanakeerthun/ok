@@ -15,14 +15,7 @@ int main()
             cout<<res;
             break;
         }
-        else
-            {
-               c=1;
-            }
-    }
-    if(c=1)
-    {
-     cout<<"Enter valid input";
+        
     }
     return 0;
 }
