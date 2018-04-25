@@ -4,12 +4,12 @@ using namespace std;
 
 int main() 
 {
-   int N ;
+   int n;
    cout<<"Enter a number  :";
-	cin>>N;
-  if(N>=1 && N<=26)
+	cin>>n;
+  if(n>=1 && n<=26)
   {
-	cout<<char(N+64);
+	cout<<char(n+64);
   }
   else
   {
