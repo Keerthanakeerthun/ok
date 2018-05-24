@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-int num,rem,sum=0;
-cin>>num;
-while(num>0)
+int n,r,sum=0;
+cin>>n;
+while(n>0)
     {
-        rem=num%10;
-        sum=sum+(rem*rem);
-        num=num/10;
+        r=n%10;
+        sum=sum+(r*r);
+        n=n/10;
         
     }
 cout<<sum;
